@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>589</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="change">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>更改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>写入源文件</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>591</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancal_change">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消更改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="choose">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择文件</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
